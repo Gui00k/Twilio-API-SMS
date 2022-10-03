@@ -1,8 +1,5 @@
 const express = require("express");
-const client = require("twilio")(
-  "AC64dd1cf6d6bde99a44123418b4ed971c",
-  "80d05605e7d306b31296d0960c53bab6"
-);
+const client = require("twilio")("{Your Token acess}", "{Your Token acess}");
 const app = express();
 const cors = require("cors");
 
